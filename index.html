@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FORMULARIO COMPLETO</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<form>
+  <fieldset>
+
+  <h1>INFORMACION PERSONAL</h1>
+  <label for="nombre">nombre completo</label>
+  <input type="text" id="nombre" name="nombre" required>
+  
+  <label for="email">correoelectronico</label>
+  <input type="email" id="email" name="email" required>
+  
+  <label for="fechadenacimiento">fecha de nacimiento</label>
+  <input type="date" id="fechadenacimiento" name="fechadenacimiento" required>
+  </fieldset>
+  
+  <fieldset>
+  <label for="usuario">nombre de usuario</label>
+  <input type="text" id="usuario" name="usuario" required>
+  <div id="pass">
+    <label for="password">contraseña </label>
+    <input type="password" id="password" name="password" required>
+  </div> 
+  
+  </fieldset>
+
+
+  <fieldset>
+  <legend>preferencia</legend>
+  <label>genero</label>
+  <label for="masculino">masculimo</label>
+  <input type="radio" id="masculino" name="genero" value="masculino">
+  <label for="femenino">femenino</label>
+  <input type="radio" id="femenino" name="genero" value="femenino">
+  </fieldset>
+
+  <fieldset>
+  <label for="PAIS">PAIS</label>
+  <select id="PAIS" name="PAIS">
+    <option value="LOCOMBIA">LOCOMBIA</option>
+    <option value="MEXICO">MEXICO</option>
+    <option value="ARGENTINA">ARGENTINA</option>
+    <option value="PERU">PERU</option> 
+  </select>
+  </fieldset>
+
+  <fieldset>
+    <label for="COMENTARIOS">DEJA TUS COMENTARIOS</label>
+    <textarea id="COMENTARIOS" name="COMENTARIOS" rows="4"></textarea>
+  </fieldset>
+
+  <button type="submit">ENVIAR</button>
+	 </form>
+ </body>
+ </html>
